@@ -1,16 +1,19 @@
 h1 {
   text-align: center;
+  text-transform:  italic;
 }
 body {
   text-align: center;
-  background: url("http://i.imgur.com/q0FaaAk.jpg");
+  background: <img 
+  src="images/CREA_20090602_Alma-Mater_04.jpg">;
+  alt="Alma Mater Statue"
   background-size: cover;
-  color: #fff;
-  font-family: Helvetica;
+  color: #0046A6;
+  font-family: Helvetica Neue;
 }
 hr {
-  width: 200px;
+  width: 150px;
 }
 p{
-  font-size: 22px;
+  font-size: 15px;
 }

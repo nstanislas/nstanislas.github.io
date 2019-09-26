@@ -11,7 +11,7 @@ align-items: center;
 text-aligh: center;
 }
 button {
-	background-color: #C4D8E2;
+	background-color: #008EE0;
 	color: white;
     /* Positioning and sizing */
     display: block;
@@ -39,7 +39,7 @@ h1 {
 }
 body {
   text-align: center;
-  background-image:"images/CREA_20040917_Alma-Mater_3.jpg/"
+  background-image:rel="images/CREA_20040917_Alma-Mater_3.jpg/"
   background-size: cover;
   color: #fff;
   font-family: Helvetica Neue;

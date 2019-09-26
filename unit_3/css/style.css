@@ -10,7 +10,7 @@ align-items: center;
 /*text styles*/
 text-aligh: center;
 }
-.hero .btn {
+button {
 	background-color: #C4D8E2;
 	color: white;
     /* Positioning and sizing */

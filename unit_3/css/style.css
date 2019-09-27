@@ -53,8 +53,14 @@ width: 300px;
    font-weight: 200;
    cursor: pointer;
    color: white;
+   align-content: center
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
 }
 .hero-button:hover {
    background-color: #FFB400;
-   border: 1px solid #FFB400;
+   border: 30px solid #FFB400;
+   display:block;
+width: 300px
 }

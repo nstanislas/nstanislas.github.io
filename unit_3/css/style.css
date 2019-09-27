@@ -21,12 +21,12 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
-   filter: brightness(60%);
+   filter: brightness(0%);
 }
 .hero-content {
    position: relative;
    font-family: "Helvetica"
-   color: white;
+   color: #0046A6;
    text-align: center;
    margin: 0.625rem;
 }

@@ -21,7 +21,7 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
-   filter: brightness(0%);
+  
 }
 .hero-content {
    position: relative;
@@ -39,6 +39,7 @@ body {
    font-size: 2rem;
    font-weight: 200;
    margin-top: 1rem;
+   color: #008EE0;
 }
 .hero-button {
    background-color: #008ee0;
@@ -53,5 +54,5 @@ body {
 }
 .hero-button:hover {
    background-color: #FFB400;
-   border: 1px solid #db7598;
+   border: 1px solid #FFB400;
 }

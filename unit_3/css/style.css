@@ -7,20 +7,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-color: #48a1d3;
-  font-family: Gotham;
+  font-family: Arial;
   height: 100%;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
 }
 hr {
   width: 200px;

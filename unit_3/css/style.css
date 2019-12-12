@@ -3,7 +3,7 @@ h1 {
 }
 body {
   text-align: left;
-  background-image: url('https://nstanislas.github.io/unit_3/images/csswaw.gif');
+  background-image: url("https://nstanislas.github.io/unit_3/images/csswaw.gif");
   background-repeat: no-repeat;
   background-color:#fff;
   background-size: cover;

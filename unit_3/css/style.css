@@ -1,67 +1,18 @@
+h1 {
+  text-align: center;
+}
 body {
-   margin: 0;
-   padding: 0;
+  text-align: center;
+  background: 
+  background-size: cover;
+  color: #fff;
+  font-family: Verdana;
 }
-.hero {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+hr {
+  width: 200px;
 }
-.hero::before {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-image: url('https://nstanislas.github.io/unit_3/images/hero image.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
-  
+p{
+  font-size: 22px;
 }
-.hero-content {
-   position: relative;
-   font-family: "Helvetica"
-   text-align: center;
-   margin: 0.625rem;
-}
-.hero-title {
-   font-size: 7rem;
-   font-weight: 600;
-   margin-bottom: 0;
-   color: #008EE0;
-}
-.hero-subtitle {
-   font-size: 4rem;
-   font-weight: 200;
-   margin-top: 10rem;
-   color: #008EE0;
-}
-.hero-button {
-display:block;
-width: 300px;
-   background-color: transparent;
-   color: white;
-   border: 30px solid #008EE0;
-   margin-top: 50px
-   margin-left: auto;
-   margin-right: auto;
-   padding: 1em
-   font-family: "Helvetica"
-   font-size: 4rem;
-   font-weight: 200;
-   cursor: pointer;
-   color: white;
-   align-content: center
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-}
-.hero-button:hover {
-   background-color: #FFB400;
-   border: 30px solid #FFB400;
-   display:block;
-width: 300px
-align-content: center;
-}
+q{font-size: 18px
+italic}

@@ -3,12 +3,11 @@ h1 {
 }
 body {
   text-align: center;
-  background: 
+  background: url("nstanislas.github.io/unit_3/images/CSSWAW.gif")
   background-size: cover;
   color: #48a1d3;
   font-family: Gotham;
   height: 100%;
-  background-image: url("nstanislas.github.io/unit_3/images/CSSWAW.gif")
 }
 hr {
   width: 200px;

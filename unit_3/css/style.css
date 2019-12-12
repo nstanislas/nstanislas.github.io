@@ -1,21 +1,44 @@
-h1 {
-  text-align: left;
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('nstanislas.github.io/unit_3/images/CSSWaw.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-body {
-  text-align: left;
-  background-image: url("nstanislas.github.io/unit_3/images/CSSW Ambassador Website.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-color: #48a1d3;
-  font-family: Arial;
-  height: 100%;
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(191, 231, 247, 0.8);
 }
-}
-hr {
-  width: 200px;
-}
-p{
-  font-size: 22px;
-}
-q{font-size: 18px
-italic}

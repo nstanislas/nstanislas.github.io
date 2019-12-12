@@ -3,10 +3,10 @@ h1 {
 }
 body {
   text-align: left;
-  background-image: url("nstanislas.github.io/unit_3/images/CSSW Ambassador Website.png")
+  background-image: url("https://nstanislas.github.io/unit_3/images/CSSW%20Ambassador%20Website.png")
   background-color:#fff;
   background-size: cover;
-  color: #48a1d3;
+  font-color: #48a1d3;
   font-family: Gotham;
   height: 100%;
 }

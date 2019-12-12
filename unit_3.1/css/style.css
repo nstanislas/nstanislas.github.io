@@ -1,0 +1,14 @@
+h1 {
+    text-alighn: center;
+}
+text-align: center;
+background: img (src = "<a href="https://ibb.co/mygJ2DK"><img src="https://i.ibb.co/VC5VzjG/CSSWAW.gif" alt="CSSWAW" border="0"></a>");
+background-size: cover;
+color: #fff;
+font-family: Helvetica;
+}
+hr {
+    width: 200px;
+
+}
+p{ font-size: 22px; }

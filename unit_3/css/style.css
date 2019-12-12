@@ -1,9 +1,9 @@
 h1 {
-  text-align: center;
+  text-align: left;
 }
 body {
-  text-align: center;
-  background: url("nstanislas.github.io/unit_3/images/CSSWAW.gif")
+  text-align: left;
+  background: url("nstanislas.github.io/unit_3/images/CSSW Ambassador Website.png")
   background-size: cover;
   color: #48a1d3;
   font-family: Gotham;

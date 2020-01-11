@@ -18,7 +18,7 @@ body {
     color: white; /* ADD THIS LINE */
     
     /* Background styles */
-    background-image: url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg');
+    background-image: url('https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3.1/images/ROOF%20IMAGE%20BACKGROUND.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 .hero {
     /* Sizing */
     width: 100vw;
@@ -10,14 +15,25 @@
     
     /* Text styles */
     text-align: center;
-    color: white;
+    color: white; /* ADD THIS LINE */
     
     /* Background styles */
-    background-image: 
+    background-image: url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg');
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 .hero .btn {
     /* Positioning and sizing */
     display: block;
@@ -30,14 +46,14 @@
     margin-right: auto;
     
     /* Text styles */
-    color: white;
+    color: white; /* CHANGE THIS LINE */
     text-decoration: none;
     font-size: 1.5em;
     
     /* Border styles */
-    border: 3px solid white;
+    border: 3px solid white; /* CHANGE THIS LINE */
     border-radius: 20px;
     
     /* Background styles */
-    background-color: rgba(191, 231, 247, 0.8);
+    background-color: rgba(147, 112, 219, 0.8);
 }

@@ -12,7 +12,7 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    background-image: background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -36,5 +36,5 @@ body {
     font-size: 1.5em;
     border: 3px solid white;
     border-radius: 20px;
-    background-color: rgba(0, 119, 190, 8);
+    background-color: rgba(0, 119, 190, 0.8);
 }

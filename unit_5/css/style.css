@@ -2,11 +2,15 @@ header {
     background-color: #ffed74;
     border: 1px black solid;
     padding: 10px;
+    height: 80px;
+    position: fixed;
 }
 
+Header * { display:inline; }
 body {
-   padding: 1em 0; 
- margin: 0;}
+   padding: 30px; 
+ margin: 0;
+align-items: center;}
 
 nav {
     background-color: #e8c66a;
@@ -48,4 +52,7 @@ ul{
   margin: 0;
   padding: 0; 
   display: flex;
+}
+header li {
+    margin: 20px;
 }

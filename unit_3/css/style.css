@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png;
+    color: white;
+    background-image: url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

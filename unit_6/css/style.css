@@ -7,10 +7,51 @@ header {
 }
 
 Header * { display:inline; }
+
 body {
-   padding: 30px; 
- margin: 0;
-align-items: center;}
+padding: 30px; 
+margin: 0;
+align-items: center;
+font-family: sans-serif;}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://github.com/nstanislas/nstanislas.github.io/blob/master/unit_3/images/Roof%20Image%20No%20words.png?raw=true);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    margin-top:0;
+    margin-bottom: 0.5em;
+}
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 119, 190, 0.7);
+}
 
 nav {
     background-color: #e8c66a;

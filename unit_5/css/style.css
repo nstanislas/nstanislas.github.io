@@ -30,3 +30,26 @@ footer {
 background-color: #ff957e;
   padding: 10px; 
 }
+li{
+  list-style-type: none;
+  margin: 0 2vw
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: #0077be;
+}
+nav{
+  width: 100vw;
+  background-color: #ffffff
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  display: flex;
+}

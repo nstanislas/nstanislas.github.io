@@ -14,7 +14,7 @@ body {
     color: white;
 
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://github.com/nstanislas/nstanislas.github.io/blob/master/unit_3/images/Roof%20Image%20No%20words.png?raw=true);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(https://github.com/nstanislas/nstanislas.github.io/blob/master/unit_3/images/Roof%20Image%20No%20words.png?raw=true);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

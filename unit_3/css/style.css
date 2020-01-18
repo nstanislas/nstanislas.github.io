@@ -12,7 +12,7 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    background-image: url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png);
+    background-image: background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3/images/Roof%20Image%20No%20words.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -25,7 +25,6 @@ body {
     margin-bottom: 0.5em;
 }
 .hero .btn {
-    /* Positioning and sizing */
     display: block;
     width: 200px;
     padding: 1em;
@@ -35,8 +34,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    /* Border styles */
     border: 3px solid white;
     border-radius: 20px;
-    background-color: rgba(0, 119, 190, 1);
+    background-color: rgba(0, 119, 190, 8);
 }

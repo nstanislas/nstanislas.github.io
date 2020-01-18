@@ -1,43 +1,32 @@
+header {
+    background-color: #ffed74;
+    border: 1px black solid;
+    padding: 10px;
+}
+
 body {
-    margin: 0;
-    font-family: sans-serif;
+   padding: 1em 0; 
 }
-.hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url(https://raw.githubusercontent.com/nstanislas/nstanislas.github.io/master/unit_3.1/images/Roof%20Image%20No%20words.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+nav {
+    background-color: #e8c66a;
+    padding: 5px;
 }
-.hero h1 {
-    /* Text styles */
-    font-size: 5em;
-    margin-top:0;
-    margin-bottom: 0.5em;
+aside{
+    background-color: #ffc675;
+    padding: 5px;
 }
-.hero .btn {
-    /* Positioning and sizing */
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    /* Border styles */
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: rgba(147, 112, 219, 0.8);
+
+article {
+    background-color: #e89c6c;
+    padding: 5px;
+}
+div {
+    background-color: #ffe2b8;
+    padding: 5px;
+}
+
+footer {
+background-color: #ff957e;
+  padding: 10px; 
 }

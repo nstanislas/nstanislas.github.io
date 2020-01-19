@@ -33,6 +33,7 @@ header img {
     font-size: 5em;
     margin-top:0;
     margin-bottom: 0.5em;
+    width: 300px;
 }
 .hero .btn {
     display: block;
@@ -43,7 +44,7 @@ header img {
     margin-right: auto;
     color: white;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     border: 3px solid white;
     border-radius: 20px;
     background-color: rgba(0, 119, 190, 0.7);

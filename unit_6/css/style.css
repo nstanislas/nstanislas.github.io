@@ -20,6 +20,7 @@ header img {
     align-items: center;
     text-align: left;
     color: white;
+    text-anchor: left;
 
     /* Background styles */
     background-image: url(https://github.com/nstanislas/nstanislas.github.io/blob/master/unit_3/images/Roof%20Image%20No%20words.png?raw=true);
@@ -33,7 +34,7 @@ header img {
     font-size: 5em;
     margin-top:0;
     margin-bottom: 0.5em;
-    width: 400px;
+    width: 450px;
     text-align: left;
 }
 .hero .btn {

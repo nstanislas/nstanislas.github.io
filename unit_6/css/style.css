@@ -29,13 +29,21 @@ header img {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.hero h1, h2, h3 {
+.hero h1 {
     /* Text styles */
     font-size: 5em;
     margin-top:0;
     margin-bottom: 0.5em;
     width: 450px;
-    text-align: left;
+    text-align: left
+    text-transform: uppercase;
+}
+.hero h2, h3, h4, {
+    /* Text styles */
+    font-size: 5em;
+    margin-top:0;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 .hero .btn {
     display: block;
@@ -74,4 +82,15 @@ header li {
 header li a {
     color: rgb(0, 119, 190);
     text-decoration: none;
+}
+#tour {
+  float: left;
+}
+
+#question {
+  float: right;
+}
+
+#event {
+  float: center;
 }

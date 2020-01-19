@@ -123,7 +123,11 @@ header li a {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
+  color: rgb(0, 119, 190);
+  text-align: center;
+
+  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -131,4 +135,6 @@ header li a {
   content: "";
   display: table;
   clear: both;
+
+
 

@@ -1,0 +1,190 @@
+body {
+    font-family: sans-serif;
+    height: 125vh;
+    background-color: rgb(0, 119, 190);
+    background-size: cover;
+   margin-top: 80px;
+   padding: 30px;
+}
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    text-anchor: left;
+
+    /* Background styles */
+    background-image: url(https://github.com/nstanislas/nstanislas.github.io/blob/master/unit_3/images/Roof%20Image%20No%20words.png?raw=true);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    margin-top:0;
+    margin-bottom: 0.5em;
+    width: 550px;
+    text-align: left
+    text-transform: uppercase;
+}
+.hero h2, h3, h4, {
+    /* Text styles */
+    font-size: 5em;
+    margin-top:0;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 119, 190, 0.7);
+    text-align: center;
+}
+main {color: white;
+}
+header { 
+background-color: white; 
+position: fixed;
+top: 0;
+left:0;
+right: 0;
+height: 80px; display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+font-size: 2em;}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: rgb(0, 119, 190);
+    text-decoration: none;
+}
+#tour {
+  float: left;
+}
+
+#question {
+  float: right;
+}
+
+#event {
+  float: center;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.article {
+  width: 280px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+  color: rgb(0, 119, 190);
+  text-align: center;
+
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  } 
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+  img { width: 320px;
+  }
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 1em 1em;
+  }
+  img { 
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+}

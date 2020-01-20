@@ -136,27 +136,62 @@ header li a {
   display: table;
   clear: both;
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
-  .nav a.icon {
-    float: right;
-    display: block;
+/* TEST of Media Query*/
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+
+  img {
+    width: 320px;
+  }
+    #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
   }
 }
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .nav.responsive {position: relative;}
-  .nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive a {
-    float: none;
+@media only screen and (max-width: 480px) {
+  h1, nav {
     display: block;
-    text-align: left;
+    text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+}
+img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+ h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+  }
+li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
   }
 }
 

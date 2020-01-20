@@ -7,8 +7,8 @@ body {
    padding: 30px;
 }
 header img {
-    height: 7em;
-    margin-left: 3.3em;
+    height: 80px;
+    margin-left: 40px;
 }
 .hero {
     /* Sizing */
@@ -34,7 +34,7 @@ header img {
     font-size: 5em;
     margin-top:0;
     margin-bottom: 0.5em;
-    width: 6.25em;
+    width: 550px;
     text-align: left
     text-transform: uppercase;
 }
@@ -56,7 +56,7 @@ header img {
     text-decoration: none;
     font-size: 1.5em;
     border: 3px solid white;
-    border-radius: 2em;
+    border-radius: 20px;
     background-color: rgba(0, 119, 190, 0.7);
     text-align: center;
 }
@@ -95,14 +95,14 @@ header li a {
   float: center;
 }
 #container {
-  width: 80em;
+  width: 960px;
   margin: 0 auto;
 }
 
 .article {
-  width: 23em;
-  padding: .8em;
-  margin: 0 .8em;
+  width: 280px;
+  padding: 10px;
+  margin: 0 10px;
   float: left;
 }
 .clearfix:after {

@@ -15,7 +15,7 @@ header img {
     width: 100vw;
     height: 100vh;
     /* Flexbox stuff */
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -122,8 +122,8 @@ header li a {
 .column {
   float: left;
   width: 33.33%;
-  padding: .8em;
-  height: 25em; 
+  padding: 10px;
+  height: 300px; 
   color: rgb(0, 119, 190);
   text-align: center;
 

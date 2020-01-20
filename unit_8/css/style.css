@@ -15,7 +15,7 @@ header img {
     width: 100vw;
     height: 100vh;
     /* Flexbox stuff */
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -47,9 +47,9 @@ header img {
 }
 .hero .btn {
     display: block;
-    width: 16em;
+    width: 200px;
     padding: 1em;
-    margin-top: 4em;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -137,17 +137,4 @@ header li a {
   clear: both;
 
 
-@media only screen and (max-width: 500px) {
-  nav {
-    float: none;
-  } 
-  nav {
-    float: none;
-  }
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
- 
-
-}
 

@@ -34,7 +34,7 @@ header img {
     font-size: 5em;
     margin-top:0;
     margin-bottom: 0.5em;
-    width: 550px;
+    width: 6.25em;
     text-align: left
     text-transform: uppercase;
 }
@@ -47,16 +47,16 @@ header img {
 }
 .hero .btn {
     display: block;
-    width: 200px;
+    width: 16em;
     padding: 1em;
-    margin-top: 50px;
+    margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     border: 3px solid white;
-    border-radius: 20px;
+    border-radius: 2em;
     background-color: rgba(0, 119, 190, 0.7);
     text-align: center;
 }
@@ -95,14 +95,14 @@ header li a {
   float: center;
 }
 #container {
-  width: 960px;
+  width: 80em;
   margin: 0 auto;
 }
 
 .article {
-  width: 280px;
-  padding: 10px;
-  margin: 0 10px;
+  width: 23em;
+  padding: .8em;
+  margin: 0 .8em;
   float: left;
 }
 .clearfix:after {
@@ -122,8 +122,8 @@ header li a {
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 300px; 
+  padding: .8em;
+  height: 25em; 
   color: rgb(0, 119, 190);
   text-align: center;
 
@@ -163,7 +163,7 @@ header li a {
     margin: 0 1em 1em;
   }
   img { 
-    width: 230px;
+    width: 27em;
   }
   section, div {
     width: 100%;
